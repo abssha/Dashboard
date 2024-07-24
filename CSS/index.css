@@ -50,12 +50,6 @@ header>div>input:focus
   width: 100%;
   text-align: left;
 }
-section
-{
-  background: url(../IMG/ch.svg);
-  background-repeat: no-repeat;
-  background-position: 20px 180px;
-}
 section>h1,section>p
 {
   color: #35005b;
@@ -87,6 +81,13 @@ section>h1,section>p
   }
 }        
 @media only screen and (max-width: 992px) 
+{
+  section
+  {
+    height: 570px;
+  }
+}  
+@media only screen and (max-width: 420px) 
 {
   section
   {
