@@ -1,0 +1,95 @@
+.u_cont
+{
+    height: 1000px;
+}
+header
+{
+    min-height: 60px;
+}
+.lg ,.lg2
+{
+  box-shadow: 1px 1px 1px 1px rgba(197, 197, 197, 0.5);
+}
+aside
+{
+    background: #421c5d;
+}
+aside>.accordion>.accordion-item button
+{
+    background: #55326e;
+    color: #f2e1ff;
+    box-shadow: none;
+}
+header>div>input
+{
+  width: 50% !important;
+}
+header>div>input:focus
+{
+  box-shadow: none !important;
+}
+.u_main
+{
+  background: rgb(246, 246, 246);
+}
+.accordion-button
+{
+  border-left: 8px solid #55326e !important;
+}
+.accordion-button:focus
+{
+  border-left: 8px solid #ffb70c !important;
+  color: #ffb70c !important;
+}
+.hm
+{
+  background: #55326e;
+  color: #f2e1ff;
+  border-left: 8px solid #55326e !important;
+  padding: 16px 20px;
+  width: 100%;
+  text-align: left;
+}
+section
+{
+  background: url(../IMG/ch.svg);
+  background-repeat: no-repeat;
+  background-position: 20px 180px;
+}
+section>h1,section>p
+{
+  color: #35005b;
+}
+.nav_b
+{
+  color: #35005b !important;
+}
+@media only screen and (min-width: 992px) 
+{
+  .lg
+  {
+    text-align: left !important;
+    padding-top: 8px !important;
+  }
+}
+@media only screen and (max-width: 676px) 
+{
+  input[type="search"]
+  {
+    width: 20%;
+  }
+}        
+@media only screen and (max-width: 992px) 
+{
+  aside
+  {
+    min-height: 426px;
+  }
+}        
+@media only screen and (max-width: 992px) 
+{
+  section
+  {
+    height: 570px;
+  }
+}  
